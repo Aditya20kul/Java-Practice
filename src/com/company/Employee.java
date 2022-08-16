@@ -11,7 +11,7 @@ public class Employee {
         this.age = age;
         this.salary = salary;
         this.yoe = yoe;
-        this.totalHeadCount += 1;
+        Employee.totalHeadCount += 1;
     }
 
 
